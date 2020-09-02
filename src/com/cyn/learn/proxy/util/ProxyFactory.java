@@ -1,9 +1,9 @@
-package com.kaikeba.util;
+package com.cyn.learn.proxy.util;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
-import com.kaikeba.service.BaseService;
+import com.cyn.learn.proxy.service.BaseService;
 
 public class ProxyFactory {
     /*
@@ -12,7 +12,7 @@ public class ProxyFactory {
      *  应该由监控行为来描述
      *  参数： Class文件，监控类
      */
-    public static BaseService Builder(Class clazz) throws Exception {
+    public static BaseService builder(Class clazz) throws Exception {
 
         //1.创建被监控实例对象
         BaseService obj = (BaseService) clazz.newInstance();

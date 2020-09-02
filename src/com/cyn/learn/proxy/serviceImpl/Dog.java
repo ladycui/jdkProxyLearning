@@ -1,6 +1,6 @@
-package com.kaikeba.serviceImpl;
+package com.cyn.learn.proxy.serviceImpl;
 
-import com.kaikeba.service.BaseService;
+import com.cyn.learn.proxy.service.BaseService;
 
 public class Dog implements BaseService {
 

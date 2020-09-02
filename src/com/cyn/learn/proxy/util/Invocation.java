@@ -1,9 +1,9 @@
-package com.kaikeba.util;
+package com.cyn.learn.proxy.util;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-import com.kaikeba.service.BaseService;
+import com.cyn.learn.proxy.service.BaseService;
 
 public class Invocation implements InvocationHandler {
 
@@ -45,7 +45,7 @@ public class Invocation implements InvocationHandler {
 
     //次要业务
     public void wash() {
-        System.out.println(Thread.currentThread().getName() + "-----祈祷----");
+        System.out.println(Thread.currentThread().getName() + "-----洗手----");
     }
 
 }

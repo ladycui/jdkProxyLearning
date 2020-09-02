@@ -1,4 +1,4 @@
-package com.kaikeba.service;
+package com.cyn.learn.proxy.service;
 /*
  * 
  * 只有需要被监控的行为才有资格
