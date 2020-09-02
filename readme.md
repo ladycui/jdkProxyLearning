@@ -14,8 +14,10 @@
 
 ### 动态代理
 顾名思义，在运行时动态获取target实现接口，但同样需要实现接口。
-
-
+参见代码: package dynamicProxy
+### cglib
+无需实现接口，只需一个简单对象即可
+参见代码： package cglib
 
 
 
